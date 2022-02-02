@@ -29,10 +29,10 @@ module.exports = {
         static : {
           directory : path.join(__dirname, "public/")
         },
-        port: 3000,
+        port: 3002,
         // publicPath
         devMiddleware:{
-           publicPath: "https://localhost:3000/dist/",
+           publicPath: "https://localhost:3002/dist/",
         },
         // hotOnly
         hot: "only",
